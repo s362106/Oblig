@@ -6,6 +6,9 @@ header{
     border: 10px solid burlywood;
     border-radius: 12.5px;
 }
+nav {
+    display: inline-block;
+}
 li {
     display: inline;
 }
