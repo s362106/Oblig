@@ -23,13 +23,14 @@ border: 10px solid burlywood;
     scroll-margin-bottom: 20px;
     background-color:blue;
     margin-top: 20px;
-    align-items: center;
+    align-content: center;
 }
 .courses > div {
     width: 70%;
     text-align: center;
     background-color: purple;
     border: 1px solid;
+
 }
 
 #tittel{
