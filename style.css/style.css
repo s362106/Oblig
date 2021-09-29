@@ -1,5 +1,6 @@
 body{
-  background-color: black;  
+  background-color: black;
+  margin: 0;
 }
 header{
    
@@ -24,11 +25,10 @@ border: 10px solid burlywood;
     background-color:blue;
     margin-top: 20px;
     display: inline-block;
-    align-content: center;
+    align-items: center;
     padding: 20px;
 }
 .courses > div {
-    flex: 1;
     width: 70%;
     text-align: center;
     background-color: purple;
