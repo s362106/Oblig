@@ -5,27 +5,25 @@ body{
 header{
     border: 10px solid burlywood;
     border-radius: 12.5px;
+    text-align: center;
 }
 li {
     display: inline;
 }
 #hovedboks{
     width: 100%;
-    height: 1000px;
+    height: 500px;
 }
 #tittelBoks{
     width: 100%;
     height: 700px;   
     background-image: url(../img/bilde2.jpeg);  
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 .courses{
     width: 100%;
-    height: 800px;
-    scroll-margin-bottom: 20px;
     background-color:blue;
-    margin-top: 20px;
     display: inline-block;
     align-items: center;
     padding: 20px;
