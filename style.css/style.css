@@ -86,7 +86,7 @@ nav > ul > li > a:hover {
     padding-top: 1em;
 }
 
-article > h1, h3, em, nav > ul > li > a {
+article > h1, h3, nav > ul > li > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
