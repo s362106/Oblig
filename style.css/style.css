@@ -49,8 +49,13 @@ nav > ul > li {
 }
 
 a {
+    font-size: larger;
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: burlywood;
 }
 
 #hovedBoks {
