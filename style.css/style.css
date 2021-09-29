@@ -75,8 +75,6 @@ nav > ul > li > a:hover {
 .courses {
     width: 100%;
     box-sizing: border-box;
-    padding-bottom: 2em;
-    border-bottom: 0.5px solid;
 }
 
 .courses > article {
@@ -102,7 +100,9 @@ footer {
     color: burlywood;
     display: flex;
     flex-flow: row;
-    padding: 2em 0 8em 0;
+    padding: 8em 0 10em 0;
+    border-top: 10px solid orange;
+    border-radius: 12.5px;
 }
 footer > div {
     width: 33.3%;
