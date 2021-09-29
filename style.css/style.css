@@ -73,17 +73,20 @@ a:hover {
 }
 
 .courses > div {
-    width: 80%;
+    width: 70%;
     text-align: center;
-    border: 1px solid;
     box-sizing: border-box;
     margin: auto;
-    margin-bottom: 4em;
+    margin-bottom: 8em;
 }
 
 .courses > div > h1, h3, i, a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
+}
+
+p {
+
 }
 
 footer {
