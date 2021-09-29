@@ -12,13 +12,17 @@ body{
     display: flex;
     align-items: center;
 }
-#menyBoks{
+.courses{
     width: 100%;
     height: 800px;
     scroll-margin-bottom: 20px;
     background-color:blue;
     margin-top: 20px;
 }
+.courses > div {
+    width: 70%;
+}
+
 #tittel{
     font-size: 100px;
     font-family:cursive;
