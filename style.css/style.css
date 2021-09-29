@@ -2,6 +2,7 @@ body {
     background-color: black;
     margin: 0;
     color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
     height: 700px;
     margin: auto;   
     background-image: url(../img/bilde2.jpeg); 
+    background-size: cover;
     opacity: 75%;
     display: inline-block;
     box-sizing: border-box;
@@ -86,7 +88,7 @@ a:hover {
 }
 
 p {
-
+    font-weight: lighter;
 }
 
 footer {
@@ -104,5 +106,10 @@ footer > div {
 
 address > ul > li {
     list-style: none;
+    
+}
+ul {
+    padding-inline-start: 0px;
+
 }
 
