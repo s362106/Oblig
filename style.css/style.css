@@ -8,6 +8,8 @@ body {
 header {
     width: 100%;
     height: auto;
+    border-bottom: 10px solid orange;
+    border-radius: 12.5px;
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 4em;
@@ -85,7 +87,7 @@ nav > ul > li > a:hover {
     margin-bottom: 10em;
 }
 
-.courses > h1, h3, i, nav > ul > li > a {
+article > h1, h3, i, nav > ul > li > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
