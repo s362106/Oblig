@@ -29,16 +29,13 @@ header {
 }
 
 #headerTxt {
-    width: 60%;
+    width: 80%;
     height: auto;
     box-sizing: border-box;
     display: inline-block;
-    border: 5px solid orange;
     text-align: center;
     margin: 150px;
     padding: 4em;
-    box-shadow: 5px 5px 3px red;
-    background-color: rgba(20, 22, 25, .3);
 
 }
 
@@ -56,7 +53,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-    font-size: larger;
+    font-size: large;
     font-weight: bolder;
     text-decoration: none;
     color: white;
