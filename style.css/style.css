@@ -54,14 +54,14 @@ nav > ul > li {
     display: inline-block;
 }
 
-a {
+nav > a {
     font-size: larger;
     text-decoration: none;
     color: white;
     padding: 0px 1em;
 }
 
-a:hover {
+nav > a:hover {
     color: burlywood;
 }
 
@@ -86,7 +86,7 @@ a:hover {
     margin-bottom: 10em;
 }
 
-.courses > h1, h3, i, a {
+.courses > h1, h3, i, nav > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
@@ -117,4 +117,5 @@ ul {
     padding-inline-start: 0px;
 
 }
+
 
