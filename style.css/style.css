@@ -54,14 +54,14 @@ nav > ul > li {
     display: inline-block;
 }
 
-nav > a {
+nav > ul > li > a {
     font-size: larger;
     text-decoration: none;
     color: white;
     padding: 0px 1em;
 }
 
-nav > a:hover {
+nav > ul > li > a:hover {
     color: burlywood;
 }
 
@@ -86,7 +86,7 @@ nav > a:hover {
     margin-bottom: 10em;
 }
 
-.courses > h1, h3, i, nav > a {
+.courses > h1, h3, i, nav > ul > li > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
@@ -118,4 +118,8 @@ ul {
 
 }
 
+address > ul > li > a {
+    text-decoration: none;
+    color: burlywood;
+}
 
