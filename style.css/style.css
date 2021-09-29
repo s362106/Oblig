@@ -26,6 +26,7 @@ border: 10px solid burlywood;
 }
 .courses > div {
     width: 70%;
+    text-align: center;
 }
 
 #tittel{
