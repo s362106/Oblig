@@ -7,12 +7,8 @@ header{
     border-radius: 12.5px;
     text-align: center;
 }
-li {
-    display: inline;
-}
-#hovedboks{
-    width: 100%;
-    height: 500px;
+nav > ul > li {
+    display: inline-block;
 }
 #tittelBoks{
     width: 100%;
@@ -21,18 +17,25 @@ li {
     display: inline-flex;
     align-items: center;
 }
+#hovedboks{
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
 .courses{
     width: 100%;
     background-color:blue;
+    vertical-align: middle;
     display: inline-block;
-    align-items: center;
     padding: 20px;
+    box-sizing: border-box;
 }
 .courses > div {
     width: 70%;
     text-align: center;
     background-color: purple;
     border: 1px solid;
+    box-sizing: border-box;
 
 }
 
