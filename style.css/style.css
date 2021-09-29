@@ -85,7 +85,7 @@ nav > ul > li > a:hover {
     margin-bottom: 10em;
 }
 
-article > h1, h3, i, nav > ul > li > a {
+article > h1, h3, em, nav > ul > li > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
