@@ -38,6 +38,7 @@ header {
     text-align: center;
     margin: 150px;
     padding: 4em;
+
 }
 
 #tittel {
@@ -73,11 +74,11 @@ a:hover {
 .courses {
     width: 100%;
     box-sizing: border-box;
-    padding-bottom: 6em;
+    padding-bottom: 2em;
     border-bottom: 0.5px solid;
 }
 
-.courses > div {
+.courses > article {
     width: 70%;
     text-align: center;
     box-sizing: border-box;
@@ -85,7 +86,7 @@ a:hover {
     margin-bottom: 10em;
 }
 
-.courses > div > h1, h3, i, a {
+.courses > h1, h3, i, a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
