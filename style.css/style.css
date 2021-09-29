@@ -58,7 +58,7 @@ footer {
     color: burlywood;
     display: flex;
     flex-flow: row;
-    align-items: center;
+    align-items:flex-start;
 }
 footer > div{
     width: 33.3%;
@@ -66,6 +66,7 @@ footer > div{
     text-align: center;
 }
 
-li{
+ul{
     list-style: none;
+    overflow:auto;
 }
