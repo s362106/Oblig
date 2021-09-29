@@ -109,7 +109,7 @@ footer > div {
 
 address > ul > li {
     list-style: none;
-    overflow:auto;
+    overflow:hidden;
     
 }
 ul {
