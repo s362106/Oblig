@@ -53,3 +53,18 @@ h2{
     margin-top: 20px;
 }
 
+footer {
+    color: burlywood;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+footer > div{
+    width:33.3%;
+    border: 1px solid;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
