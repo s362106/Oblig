@@ -83,15 +83,12 @@ nav > ul > li > a:hover {
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 10em;
+    padding-top: 1em;
 }
 
 article > h1, h3, i, nav > ul > li > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
-}
-
-p {
-    font-weight: lighter;
 }
 
 footer {
