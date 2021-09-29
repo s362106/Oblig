@@ -23,9 +23,11 @@ border: 10px solid burlywood;
     scroll-margin-bottom: 20px;
     background-color:blue;
     margin-top: 20px;
+    display: flex;
     align-content: center;
 }
 .courses > div {
+    flex: 1;
     width: 70%;
     text-align: center;
     background-color: purple;
