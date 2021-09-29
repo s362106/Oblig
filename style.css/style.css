@@ -18,6 +18,7 @@ header {
     height: 700px;
     margin: auto;   
     background-image: url(../img/bilde2.jpeg); 
+    opacity: 75%;
     display: inline-block;
     box-sizing: border-box;
 }
