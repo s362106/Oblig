@@ -54,6 +54,7 @@ nav > ul > li {
 
 nav > ul > li > a {
     font-size: larger;
+    font-weight: bolder;
     text-decoration: none;
     color: white;
     padding: 0px 1em;
