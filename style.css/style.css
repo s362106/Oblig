@@ -81,12 +81,13 @@ nav > ul > li > a:hover {
 }
 
 .courses > article {
-    width: 70%;
+    width: 80%;
     text-align: center;
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 10em;
-    padding-top: 1em;
+    padding: 1em 0 5em 0;
+    background-color:  tomato;
 }
 
 h1, h2, h3, nav > ul > li > a {
