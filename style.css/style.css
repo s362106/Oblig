@@ -22,6 +22,9 @@ header {
     background-image: url(../img/bilde2.jpeg); 
     background-size: cover;
     opacity: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -97,7 +100,7 @@ footer {
     color: burlywood;
     display: flex;
     flex-flow: row;
-    padding-bottom: 6em;
+    padding: 2em 0 8em 0;
 }
 footer > div {
     width: 33.3%;
