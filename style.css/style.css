@@ -21,8 +21,8 @@ body{
 }
 #tittel{
     font-size: 100px;
-    font-family: fantasy;
-    color: black;
+    font-family:cursive;
+    color:burlywood;
     text-align: center;
     padding: auto;
     flex: 1;
