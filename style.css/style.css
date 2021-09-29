@@ -8,7 +8,7 @@ body{
 #tittelBoks{
     width: 100%;
     height: 700px;  
-    background-image: url(/img/bilde1.jpeg);  
+    background-image: url(../img/bilde1.jpeg);  
 }
 #menyBoks{
     width: 15%;
