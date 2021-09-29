@@ -73,7 +73,7 @@ a {
     margin-bottom: 4em;
 }
 
-.courses > div > h1, h3, i {
+.courses > div > h1, h3, i, a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
