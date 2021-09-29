@@ -38,6 +38,7 @@ header {
     margin: 150px;
     padding: 4em;
     box-shadow: 5px 5px 3px red;
+    background-color: rgba(20, 22, 25, .3);
 
 }
 
