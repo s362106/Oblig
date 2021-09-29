@@ -42,9 +42,23 @@ h2{
     font-size: 20px;
     margin-top: 20px;
 }
-address {
-    color:burlywood;
-    font-family: italic;
-    float: left;
+footer {
+    color: burlywood;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 }
+footer > div{
+    width:33.3%;
+    border: 1px solid;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
 
