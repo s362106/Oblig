@@ -11,6 +11,7 @@ header {
     border-radius: 12.5px;
     text-align: center;
     box-sizing: border-box;
+    margin-bottom: 4em;
 }
 
 #headerBoks {
@@ -18,6 +19,7 @@ header {
     height: 700px;
     margin: auto;   
     background-image: url(../img/bilde2.jpeg); 
+    opacity: 75%;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -27,7 +29,7 @@ header {
     height: auto;
     box-sizing: border-box;
     display: inline-block;
-    border: 2px solid orange;
+    border: 5px solid orange;
     text-align: center;
     margin: 150px;
 }
@@ -37,6 +39,7 @@ header {
     font-family: cursive;
     color:burlywood;
     vertical-align: middle;
+    text-shadow: 2px 2px red;
 }
 
 nav > ul > li {
@@ -50,47 +53,46 @@ a {
 
 #hovedBoks {
     width: 100%;
-    background-color: blueviolet;
     box-sizing: border-box;
-    padding: 6em;
+    padding: 4em;
 }
 
 .courses {
     width: 100%;
-    background-color:blue;
     box-sizing: border-box;
+    padding-bottom: 6em;
+    border-bottom: 0.5px solid;
 }
 
 .courses > div {
     width: 80%;
     text-align: center;
-    background-color: purple;
     border: 1px solid;
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 4em;
 }
 
-.courses > div > h1, h3 {
+.courses > div > h1, h3, i {
     margin: 2em 0 2em 0;
+    text-shadow: 2px 2px red;
 }
 
-
-
 footer {
+    width: 100%;
+    box-sizing: border-box;
     color: burlywood;
     display: flex;
     flex-flow: row;
-    align-items: center;
-    padding: 80px 0 80px 0;
-    border: 1px solid pink;
+    padding-bottom: 6em;
 }
 footer > div {
     width: 33.3%;
-    border: 1px solid;
     text-align: center;
+    border: 1px solid;
 }
 
 address > ul > li {
     list-style: none;
 }
+
