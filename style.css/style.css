@@ -25,6 +25,7 @@ border: 10px solid burlywood;
     margin-top: 20px;
     display: flex;
     align-content: center;
+    padding: 20px;
 }
 .courses > div {
     flex: 1;
