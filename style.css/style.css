@@ -7,12 +7,10 @@ body {
 
 header {
     width: 100%;
-    height: auto;
     border-bottom: 10px solid orange;
     border-radius: 12.5px;
     text-align: center;
     box-sizing: border-box;
-    margin-bottom: 4em;
 }
 
 #headerBox {
@@ -68,6 +66,7 @@ nav > ul > li > a:hover {
     width: 100%;
     box-sizing: border-box;
     padding: 4em;
+    margin-top: 4em;
 }
 
 #intro {
@@ -75,6 +74,7 @@ nav > ul > li > a:hover {
     padding-bottom: 6em;
     color: burlywood;
 }
+
 .courses {
     width: 100%;
     box-sizing: border-box;
@@ -119,6 +119,7 @@ footer {
     border-top: 10px solid orange;
     border-radius: 12.5px;
 }
+
 footer > div {
     width: 33.3%;
     text-align: center;
@@ -126,28 +127,32 @@ footer > div {
 
 address > ul > li {
     list-style: none;
-    overflow:hidden;
-    
+    overflow: hidden;
 }
+
 ul {
     padding-inline-start: 0px;
 
 }
-address > ul > li > a:hover{
-    text-decoration: none;
-    color: orange;
-    }
 
 address > ul > li > a {
     text-decoration: none;
     color: burlywood;
 }
 
-#rapport{
-    width: 90%;
-    text-align: center;
-    padding: 4em;
+address > ul > li > a:hover {
+    text-decoration: none;
+    color: orange;
 }
+
+#rapport {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 4em;
+    margin-bottom: 4em;
+}
+
 #rapport > p {
     line-height:1.5em;
 }
