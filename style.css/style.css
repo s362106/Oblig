@@ -129,3 +129,11 @@ address > ul > li > a {
     color: burlywood;
 }
 
+#rapport{
+    width: 90%;
+    text-align: center;
+    padding: 4em;
+}
+#rapport > p {
+    line-height:1.5em;
+}
