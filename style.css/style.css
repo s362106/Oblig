@@ -100,10 +100,15 @@ article > h2, address > p {
     letter-spacing: 5px;
 }
 
-address > p, h3 {
+address > p {
     color: orange;
     font-size: large;
     font-weight: bolder;
+}
+
+h3 {
+    text-shadow: 2px 2px black;
+    color: orange;
 }
 
 section {
