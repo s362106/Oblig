@@ -124,4 +124,11 @@ address > ul > li > a {
     text-decoration: none;
     color: burlywood;
 }
-
+#rapport{
+    width: 80%;
+    text-align: center;
+    padding: 4em;
+}
+#rapport > p {
+    line-height:1.5em;
+}
