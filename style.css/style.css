@@ -95,6 +95,16 @@ h1, h2, h3, address > p, nav > ul > li > a {
     text-shadow: 2px 2px red;
 }
 
+h3 {
+    text-shadow: 2px 2px black;
+    color: orange;
+}
+
+section {
+    border-top: 1px dashed;
+    padding-bottom: 3em;
+}
+
 article > h2, address > p {
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -106,15 +116,6 @@ address > p {
     font-weight: bolder;
 }
 
-h3 {
-    text-shadow: 2px 2px black;
-    color: orange;
-}
-
-section {
-    border-top: 1px dashed;
-    padding-bottom: 3em;
-}
 
 footer {
     width: 100%;
