@@ -57,7 +57,7 @@ nav > ul > li > a {
     font-weight: bolder;
     text-decoration: none;
     color: white;
-    padding: 0px 1em;
+    padding: 0.2em 1em;
     background-color: tomato;
 }
 
@@ -87,7 +87,7 @@ nav > ul > li > a:hover {
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 10em;
-    padding: 1em 0 5em 0;
+    padding: 1em 0 3em 0;
     background-color: tomato;
 }
 
@@ -99,6 +99,11 @@ h1, h2, h3, nav > ul > li > a {
 article > h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+section {
+    border-top: 1px dashed;
+    padding-bottom: 3em;
 }
 
 footer {
