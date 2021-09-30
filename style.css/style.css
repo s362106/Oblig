@@ -90,18 +90,20 @@ nav > ul > li > a:hover {
     background-color: tomato;
 }
 
-h1, h2, h3, nav > ul > li > a {
+h1, h2, address > p, nav > ul > li > a {
     margin: 2em 0 2em 0;
     text-shadow: 2px 2px red;
 }
 
-article > h2, address > h3 {
+article > h2, address > p {
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
-h3 {
+address > p {
     color: orange;
+    font-size: large;
+    font-weight: bolder;
 }
 
 section {
