@@ -119,6 +119,10 @@ ul {
     padding-inline-start: 0px;
 
 }
+address > ul > li > a:hover{
+text-decoration: none;
+color: skyblue;
+}
 
 address > ul > li > a {
     text-decoration: none;
